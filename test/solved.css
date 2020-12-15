@@ -10,7 +10,6 @@ pre{
 }
 em{
     font-style: italic;
-    color:red;
 }
 li.first{
     font-size:1.2em;
@@ -19,6 +18,10 @@ li.first{
 li.second{
     font-size:1.5em;
     color:rgb(120, 165, 25);
+}
+a:link{
+    text-decoration: underline;
+    color:rgb(111, 111, 255);
 }
 body{
     background-color: black;
