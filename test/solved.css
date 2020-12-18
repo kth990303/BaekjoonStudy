@@ -1,3 +1,17 @@
+#enter{
+    position:absolute;
+    right:30px;
+    top:20px;
+}
+#enter p{
+    display: inline;
+    text-decoration: underline;
+}
+#ad{
+    position: fixed;
+    right: 100px;
+    bottom: 80px;
+}
 h1{
     text-align:center;
     font-family:sans-serif;
