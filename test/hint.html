@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>이번주 문제 힌트</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color:black;
+                font-family:Arial, Helvetica, sans-serif;
+                margin: 0px;
+                color: rgba(255, 255, 255, 0.534);
+            }
+            header{
+                background-color: #634c68;
+                color:#000000;
+                margin: 0px;
+                text-align: center;
+                padding: 15px;
+            }
+            header p{
+                position:absolute;
+                top:2px;
+                left:15px;
+            }
+            h1{
+                margin: 0px;
+            }
+            section#main{
+                display: table-cell;
+                width: 80%;
+                background-color: black;
+                padding: 15px;
+            }
+            nav{
+                display: table-cell;
+                width: 20%;
+                background-color: rgba(112, 128, 144, 0.822);
+                padding: 15px;
+            }
+            footer{
+                background-color: #954b4b;
+                color:#efe5d0;
+                text-align: center;
+                padding: 10px;
+                margin: 0px 0px 0px 0px;
+                font-size: 90%;
+            }
+            a:link{
+                text-decoration: underline;
+                color:rgb(111, 111, 255);
+            }
+            a:visited{
+                text-decoration: underline;
+                color:rgb(194, 86, 194);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>이번 주 문제들 힌트!</h1>
+            <p><a href="https://kth990303.github.io/BaekjoonStudy/test/solvedInfo.html">HOME</a></p>
+        </header>
+        <nav>
+            <h1>Links</h1>
+            <ul>
+                <li><a href="https://solved.ac/profile/kth990303">kth990303 프로필</a></li>
+                <li><a href="https://solved.ac/profile/hiha">hiha 프로필</a></li>
+                <li><a href="https://solved.ac/profile/2sms22rjt">2sms22rjt 프로필</a></li>
+            </ul>
+        </nav>
+        <section id="main">
+            <article>
+                <h1>
+                    hiha님 문제
+                </h1>
+                <ol>
+                    <li>
+                        사과담기 게임: 바구니 범위의 왼쪽, 안, 오른쪽에 따른 if문 나누기
+                    </li><br>
+                    <li>
+                        피보나치는 지겨웡~: 전형적인 dp문제. 다만, 다른 문제들과는 다르게 피보나치 함수가
+                        호출되는 횟수를 묻는 문제이다. 피보나치 함수는 d[i]=d[i-1]+d[i-2];의 식을 따르고,
+                        거기에 자기 자신이 호출되므로, 위 함수에서 1을 추가해주면 d[i]가 된다. 자료형이
+                        long long이 될 수 있음에 주의한다.
+                    </li><br>
+                    <li>파도반 수열: dp가 어렵다기보단 규칙을 찾기가 어렵다. 그림을 따라가다보면 답이
+                        나올텐데, 어쩌면 현재 항의 네번째 이전 항까지 참조해야될 수도?
+                    </li><br>
+                    <li>
+                        나는 위대한 슈퍼스타K: 문제를 해석하는게 가장 힘들지만, 해석하면 저절로 풀리는 문제.
+                        자세히 보면 장르는 왜 따지는건지 알 수가 없네?
+                    </li><br>
+                    <li>
+                        N과 M(1): 백트래킹의 기초. 넣었다 뺐다를 전 항목 다 실시해주자.
+                    </li><br>
+                </ol>
+            </article>
+            <article>
+                <h1>2sms22rjt님 문제</h1>
+                <ol>
+                    <li>
+                        DFS와 BFS: 글쎄, dfs와 bfs의 개념 문제라... 다만, visit함수를 잘 처리했는지 다시 보자.
+                        또한, 간선의 방향이 따로 지정돼있지 않았으므로, init할 때 양방향으로 잘 넣어줘야 한다.
+                    </li><br>
+                    <li>
+                        촌수 계산: bfs든 dfs든 가능한 문제. 자신에게 연결된 간선 중 visit하지 않은 간선으로
+                        다음 촌수로 넘어갈 때마다 그 값을 +해주면서, 찾는 촌수가 나왔으면 리턴해주면 되지 않을까?
+                    </li><br>
+                    <li>
+                        연결 요소의 개수: bfs, dfs, 심지어 컴포넌트 개수를 세는 문제이므로 유니온파인드까지도
+                        가능한 문제. 단순히 탐색을 해주고, 이제 더 이상 돌릴게 없으면 탐색을 끝내준다.
+                        어떻게 보면 브루트포스라고도 볼 수가 있겠네.
+                    </li><br>
+                    <li>
+                        안전 영역: dfs, bfs 모두 풀 수 있는 문제. 조금 어려운 문제다. 구현도 조금 필요하고.
+                        힌트는 나중에 수정해야지.
+                    </li><br>
+                    <li>
+                        말이 되고픈 원숭이: 좀 어려운 bfs문제. 혹시 dfs로 하고 있는거...아니죠?
+                        힌트는 나중에 추가해야지.
+                    </li><br>
+                </ol>
+            </article>
+        </section>
+        <footer>Copyright (c) 2020, kth990303의 백준 스터디</footer>
+    </body>
+</html>
