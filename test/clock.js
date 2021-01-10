@@ -15,7 +15,7 @@ function getTime(){
         else
             clockword.innerHTML=`가끔은 쉬어주는 것도 괜찮아요`;
     }
-    else if(hour<10){
+    else if(hour<9){
         if(rand==1)
             clockword.innerHTML=`추운 날 아침엔 이불 속 코딩 어때요?`;
         else
@@ -32,6 +32,12 @@ function getTime(){
             clockword.innerHTML=`1일 1문제, 지금 바로 실천해요`;
         else
             clockword.innerHTML=`가끔 너무 어려울 땐 조금 쉬었다가 해보자`;
+    }
+    else if(hour<21){
+        if(rand==0)
+            clockword.innerHTML=`힘들어도 참고 하면 골드 가있을 예정`;
+        else
+            clockword.innerHTML=`코딩테스트 합격하고 빨리 취뽀하고 싶다!`;
     }
     else{
         if(rand==1)

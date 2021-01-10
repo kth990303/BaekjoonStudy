@@ -1,14 +1,13 @@
 .clock{
     position: absolute;
-    right: 15px;
-    top: 750px;
+    right: 18px;
+    top: 840px;
     color: cornflowerblue;
 }
 .clockword{
     position: absolute;
-    right: 15px;
-    top: 810px;
-    overflow: hidden;
+    right: 18px;
+    top: 900px;
     color: rgba(144, 238, 144, 0.8);
     font-size: 16px;
     font-weight: bolder;
