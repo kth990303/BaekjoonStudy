@@ -1,0 +1,15 @@
+.clock{
+    position: absolute;
+    right: 15px;
+    top: 830px;
+    color: cornflowerblue;
+}
+.clockword{
+    position: absolute;
+    right: 15px;
+    top: 900px;
+    overflow: hidden;
+    color: rgba(144, 238, 144, 0.8);
+    font-size: 16px;
+    font-weight: bolder;
+}
